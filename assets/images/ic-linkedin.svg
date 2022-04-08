@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="33" viewBox="0 0 36 33">
+  <g id="ic-linkin" transform="translate(0.088)">
+    <rect id="Rectangle_67" data-name="Rectangle 67" width="36" height="33" transform="translate(-0.088)" fill="none"/>
+    <g id="linkedin-big-logo" transform="translate(9.45 4.121)">
+      <path id="Path_241" data-name="Path 241" d="M2.8.183a2.8,2.8,0,1,0,2.8,2.8A2.8,2.8,0,0,0,2.8.183Z" transform="translate(0 -0.183)" fill="#4287cc"/>
+      <path id="Path_242" data-name="Path 242" d="M8.727,83.531h-4.2a.362.362,0,0,0-.362.362V97.408a.362.362,0,0,0,.362.362h4.2a.362.362,0,0,0,.362-.362V83.893A.362.362,0,0,0,8.727,83.531Z" transform="translate(-3.83 -76.813)" fill="#4287cc"/>
+      <path id="Path_243" data-name="Path 243" d="M97.4,81.557a5.515,5.515,0,0,0-3.711,1.231v-.71a.362.362,0,0,0-.362-.362H89.3a.362.362,0,0,0-.362.362V95.593a.362.362,0,0,0,.362.362h4.195a.362.362,0,0,0,.362-.362V88.907c0-1.919.353-3.108,2.114-3.108,1.735,0,1.865,1.277,1.865,3.222v6.572a.362.362,0,0,0,.362.362h4.2a.362.362,0,0,0,.362-.362V88.18C102.753,85.1,102.144,81.557,97.4,81.557Z" transform="translate(-81.766 -74.998)" fill="#4287cc"/>
+    </g>
+  </g>
+</svg>
