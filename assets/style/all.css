@@ -14387,7 +14387,11 @@ header {
     background: #777; }
 
 footer {
-  padding: 100px 0; }
+  padding: 100px 0;
+  /*ipnone5*/ }
+  @media (max-width: 320px) {
+    footer {
+      padding: 50px 0; } }
 
 .footer-column {
   position: relative; }
@@ -14423,7 +14427,7 @@ footer {
 .footer-link {
   color: #fff;
   font-size: 0.95em;
-  font-weight: 100;
+  font-weight: 400;
   margin-bottom: 16px; }
   .footer-link:hover {
     color: #83ADE0; }
@@ -14475,7 +14479,8 @@ footer {
   background: url("../images/top-bg.jpg") 0 80px no-repeat;
   background-size: 100%;
   padding-bottom: 160px;
-  margin-top: 140px; }
+  margin-top: 140px;
+  /*ipnone5*/ }
   @media (max-width: 1650px) {
     .top-wrapper {
       background-size: 1650px;
@@ -14493,6 +14498,11 @@ footer {
     .top-wrapper {
       background: url("../images/top-bg.jpg") 0 100px no-repeat;
       background-size: 600px; } }
+  @media (max-width: 320px) {
+    .top-wrapper {
+      background: url("../images/top-bg.jpg") 0 100px no-repeat;
+      background-size: 500px;
+      padding-bottom: 20px; } }
 
 .top {
   padding-left: 10%;
@@ -14719,10 +14729,14 @@ footer {
 /* ------------- 內容開始 -------------*/
 .section {
   padding-top: 80px;
-  padding-bottom: 150px; }
+  padding-bottom: 150px;
+  /*ipnone5*/ }
   @media (max-width: 768px) {
     .section {
       padding-bottom: 80px; } }
+  @media (max-width: 320px) {
+    .section {
+      padding-bottom: 30px; } }
   .section[data-content="hot"] {
     background: url("../images/word-hot.svg") no-repeat center 0; }
     @media (max-width: 1650px) {
@@ -14777,7 +14791,8 @@ footer {
     background-size: 1075px,1290px;
     padding-top: 160px;
     padding-bottom: 160px;
-    margin-bottom: 150px; }
+    margin-bottom: 150px;
+    /*ipnone5*/ }
     @media (max-width: 1650px) {
       .section[data-content="media"] {
         background: url("../images/word-story.svg") no-repeat 60px 80px, url("../images/index-bg-light.jpg") no-repeat;
@@ -14798,9 +14813,13 @@ footer {
         background: url("../images/word-story.svg") no-repeat center 60px, url("../images/index-bg-light.jpg") no-repeat;
         background-size: 600px,1290px;
         padding-top: 100px; } }
+    @media (max-width: 320px) {
+      .section[data-content="media"] {
+        margin-bottom: 30px; } }
   .section[data-content="faq"] {
     padding-bottom: 100px;
-    background: url("../images/word-faq.svg") no-repeat center 0; }
+    background: url("../images/word-faq.svg") no-repeat center 0;
+    /*ipnone5*/ }
     @media (max-width: 1650px) {
       .section[data-content="faq"] {
         background: url("../images/word-faq.svg") no-repeat center 10px;
@@ -14813,6 +14832,9 @@ footer {
       .section[data-content="faq"] {
         background: url("../images/word-faq.svg") no-repeat center 30px;
         background-size: 600px; } }
+    @media (max-width: 320px) {
+      .section[data-content="faq"] {
+        padding-bottom: 50px; } }
 
 .page-container {
   min-height: calc(100vh - 99px);
