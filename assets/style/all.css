@@ -14379,6 +14379,10 @@ header {
   background: #666;
   color: #fff;
   z-index: 100; }
+  @media (max-width: 576px) {
+    .gotop {
+      width: 45px;
+      height: 45px; } }
   .gotop:hover {
     display: -webkit-box;
     display: -ms-flexbox;
