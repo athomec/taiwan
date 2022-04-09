@@ -10441,12 +10441,6 @@ body {
   letter-spacing: 1px;
   color: #333; }
 
-.clear {
-  clear: both;
-  height: 0;
-  font-size: 1px;
-  line-height: 0px; }
-
 img {
   display: block;
   max-width: 100%;
