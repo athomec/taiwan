@@ -14256,13 +14256,13 @@ footer {
           -ms-flex-align: center;
               align-items: center;
       padding-left: 40px; }
-      .login-check .form-check.active .form-check-label {
-        background: #345F94;
-        color: #fff; }
     .login-check .form-check-label {
       background: #999;
       border-radius: 80px;
       padding: 7px 15px 8px 40px; }
+      .login-check .form-check-label.active {
+        background: #345F94;
+        color: #fff; }
     .login-check .form-check-input {
       width: 16px;
       height: 16px;
