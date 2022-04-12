@@ -37,6 +37,12 @@ $('.js-toggle-menu').find(".js-toggle-button").click(function () {
 	
 });
 
+$('.dropdown').hover(function() {
+	$(this).find(".dropdown-menu").addClass('show');
+},function() {
+	$(this).find(".dropdown-menu").removeClass('show');
+});
+
 	//---------------------文字縮放設定----------------------
 	$(".js-font-size").find("a").click(function () {
 		$(".js-font-size").find("a").removeClass("now");

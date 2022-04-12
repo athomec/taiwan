@@ -14124,8 +14124,7 @@ footer {
   @media (max-width: 767px) {
     .top-wrapper {
       background: url("../images/top-bg.jpg") 0 60px no-repeat;
-      background-size: 850px;
-      margin-top: 70px; } }
+      background-size: 850px; } }
   @media (max-width: 576px) {
     .top-wrapper {
       background: url("../images/top-bg.jpg") 0 100px no-repeat;
@@ -14487,6 +14486,26 @@ footer {
     @media (max-width: 576px) {
       .section[data-content="faq"] {
         padding-bottom: 50px; } }
+
+.page-top {
+  margin-top: 140px; }
+  @media (max-width: 991px) {
+    .page-top {
+      margin-top: 90px; } }
+  @media (max-width: 768px) {
+    .page-top {
+      margin-top: 70px; } }
+  .page-top[data-content="why"] {
+    background: url("../images/page-bg1.jpg") no-repeat bottom; }
+  .page-top-title {
+    font-size: 3.9rem;
+    font-weight: 800; }
+  .page-top-sub {
+    display: inline-block;
+    font-size: 1.2em;
+    color: #fff;
+    background: #003B84;
+    padding: 4px 24px; }
 
 .page-container {
   min-height: calc(100vh - 99px);
