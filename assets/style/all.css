@@ -13780,13 +13780,14 @@ input::placeholder {
 /*------------------------選單開始------------------------*/
 header {
   height: 130px;
-  -webkit-transition: all 0.2s ease;
-  -o-transition: all 0.2s ease;
-  transition: all 0.2s ease; }
+  -webkit-transition: all 0.1s ease;
+  -o-transition: all 0.1s ease;
+  transition: all 0.1s ease; }
   @media (max-width: 991px) {
     header {
       height: auto; } }
   header.up {
+    background: #fff;
     height: 106px;
     -webkit-box-shadow: 0 0 6px #999;
             box-shadow: 0 0 6px #999; }
@@ -14489,7 +14490,10 @@ footer {
         padding-bottom: 50px; } }
 
 .page-top {
-  margin-top: 140px; }
+  margin-top: 140px;
+  position: relative; }
+  .page-top:after {
+    background: url("../images/page-bg1.jpg"); }
   @media (max-width: 991px) {
     .page-top {
       margin-top: 90px; } }
