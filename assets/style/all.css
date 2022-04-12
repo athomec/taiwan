@@ -13935,7 +13935,7 @@ header {
     color: #003B84;
     font-weight: 500;
     font-size: 1.2em;
-    padding: 0 !important;
+    padding: 10px 0 !important;
     position: relative; }
     @media (max-width: 991px) {
       .navbar-nav .nav-link {
@@ -13959,7 +13959,7 @@ header {
             box-shadow: 0 3px 10px #666;
     text-align: center;
     left: auto;
-    top: 40px; }
+    top: 45px; }
     @media (max-width: 991px) {
       .navbar-nav .dropdown-menu {
         width: 100%;
@@ -13967,7 +13967,8 @@ header {
         border-radius: 0;
         -webkit-box-shadow: none;
                 box-shadow: none;
-        background: #acc8ea; } }
+        background: #acc8ea;
+        top: auto; } }
   .navbar-nav .dropdown-item {
     padding-top: 8px;
     padding-bottom: 8px; }
