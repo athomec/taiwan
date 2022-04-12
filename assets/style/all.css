@@ -13797,7 +13797,7 @@ header {
       header.up {
         height: 60px; } }
     header.up .navbar-nav {
-      top: 60px; }
+      top: 50px; }
 
 .navbar-brand {
   display: inline-block;
@@ -13908,10 +13908,10 @@ header {
   transition: all 0.2s ease;
   position: absolute;
   left: 12px;
-  top: 90px; }
+  top: 80px; }
   @media (max-width: 1200px) {
     .navbar-nav {
-      top: 75px; } }
+      top: 70px; } }
   @media (max-width: 991px) {
     .navbar-nav {
       position: initial; } }
