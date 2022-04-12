@@ -14256,11 +14256,9 @@ footer {
           -ms-flex-align: center;
               align-items: center;
       padding-left: 40px; }
-      .login-check .form-check.active {
-        pointer-events: none; }
-        .login-check .form-check.active .form-check-label {
-          background: #345F94;
-          color: #fff; }
+      .login-check .form-check.active .form-check-label {
+        background: #345F94;
+        color: #fff; }
     .login-check .form-check-label {
       background: #999;
       border-radius: 80px;
@@ -14299,7 +14297,10 @@ footer {
 .login-content-item {
   -webkit-transition: all 0.2s ease;
   -o-transition: all 0.2s ease;
-  transition: all 0.2s ease; }
+  transition: all 0.2s ease;
+  display: none; }
+  .login-content-item.show {
+    display: block; }
 
 /* ------------- news開始 -------------*/
 .list-shadow {
