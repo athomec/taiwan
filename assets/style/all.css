@@ -14258,8 +14258,7 @@ footer {
       padding-left: 40px; }
       .login-check .form-check.active .form-check-label {
         background: #345F94;
-        color: #fff;
-        pointer-events: none; }
+        color: #fff; }
     .login-check .form-check-label {
       background: #999;
       border-radius: 80px;
@@ -14294,6 +14293,14 @@ footer {
       color: #999 !important; }
     .login-input::placeholder {
       color: #999 !important; }
+
+.login-content-item {
+  display: none;
+  -webkit-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease; }
+  .login-content-item.show {
+    display: block; }
 
 /* ------------- news開始 -------------*/
 .list-shadow {

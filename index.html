@@ -182,21 +182,19 @@
 				<div class="login mx-auto ms-md-auto">
 					<h3 class="font-xl primary-color mb-4 text-center text-md-start">會員登入</h3>
 					<div class="login-check js-check-menu mb-3 font-xsm">
-						<div class="form-check form-check-inline active js-check-button me-3">
+						<div class="form-check form-check-inline active js-check-button me-3" data-target="#person">
 							<input class="form-check-input" type="radio" name="inlineRadioOptions" id="personRadio"
 								value="person" title="人才登入" checked>
-							<label class="form-check-label" for="personRadio" data-bs-toggle="collapse"
-								data-bs-target="#person">人才登入</label>
+							<label class="form-check-label" for="personRadio">人才登入</label>
 						</div>
-						<div class="form-check form-check-inline js-check-button me-0">
+						<div class="form-check form-check-inline js-check-button me-0" data-target="#company">
 							<input class="form-check-input" type="radio" name="inlineRadioOptions" id="companyRadio"
 								value="company" title="企業登入">
-							<label class="form-check-label" for="companyRadio" data-bs-toggle="collapse"
-								data-bs-target="#company">企業登入</label>
+							<label class="form-check-label" for="companyRadio">企業登入</label>
 						</div>
 					</div>
 					<div class="login-content font-xsm">
-						<div class="collapse show" id="person" data-bs-parent=".login-content">
+						<div id="person" class="login-content-item js-content-item show">
 							<div class="mb-3">
 								<label for="person-account" class="form-label">帳號</label>
 								<input type="text" class="form-control login-input" id="person-account"
@@ -237,7 +235,7 @@
 								</a>
 							</div>
 						</div>
-						<div class="collapse" id="company" data-bs-parent=".login-content">
+						<div id="company" class="login-content-item js-content-item">
 							<div class="mb-3">
 								<label for="company-account" class="form-label">帳號</label>
 								<input type="text" class="form-control login-input" id="company-account"
@@ -249,12 +247,12 @@
 									placeholder="請輸入密碼" title="請輸入密碼">
 							</div>
 							<div class="row mb-3 align-items-end g-3">
-								<div class="col-5">
+								<div class="col-sm-5">
 									<label for="company-verification" class="form-label">驗證碼</label>
 									<input type="text" class="form-control login-input" id="company-verification"
 										placeholder="請輸入驗證碼" title="請輸入驗證碼">
 								</div>
-								<div class="col-7 d-flex align-items-center">
+								<div class="col-sm-7 d-flex align-items-center">
 									<img src="./assets/images/demo-code.png" alt="驗證碼圖片" class="me-2">
 									<a href="#" class="img-link me-1" title="重新產生驗證碼"><img
 											src="./assets/images/ic-refresh.svg" alt="重新產生驗證碼"></a>

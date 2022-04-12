@@ -24,9 +24,11 @@ $(window).scroll(function () {
 
 //---------------------頁籤設定------------------------
 $('.js-check-menu').find(".js-check-button").click(function () {
+	var selectedClassName = $(this).attr('data-target');
+	$(".js-content-item").removeClass("show");
+	$(selectedClassName).addClass("show");
 	$(this).addClass("active");
 	$(this).siblings('.js-check-button').removeClass('active');
-	
 });
 $('.js-toggle-menu').find(".js-toggle-button").click(function () {
 	$(this).toggleClass("active");
