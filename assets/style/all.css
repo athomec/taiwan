@@ -10653,6 +10653,7 @@ input::placeholder {
   opacity: 0.8; }
 
 .link-basic {
+  display: inline-block;
   color: #345F94;
   text-decoration: underline; }
 
@@ -14771,23 +14772,29 @@ footer {
   max-width: 297px;
   position: relative;
   z-index: 1;
-  -webkit-transition: all 0.2s ease;
-  -o-transition: all 0.2s ease;
-  transition: all 0.2s ease;
-  /*ipnone6*/ }
+  -webkit-transition: all 0.05s ease;
+  -o-transition: all 0.05s ease;
+  transition: all 0.05s ease; }
   @media (max-width: 1200px) {
     .side-menu {
       position: absolute;
-      left: 0;
-      top: 0;
-      width: 250px; } }
-  @media (max-width: 375px) {
-    .side-menu {
-      top: -110px;
-      height: 100vh;
-      top: 58px;
+      left: -250px;
+      width: 250px;
+      height: calc(100vh - 106px);
+      top: 106px;
       position: fixed;
-      background: #F1F1F1; } }
+      background: #F1F1F1;
+      overflow: auto; } }
+  @media (max-width: 991px) {
+    .side-menu {
+      height: calc(100vh - 68px);
+      top: 68px; } }
+  @media (max-width: 768px) {
+    .side-menu {
+      height: calc(100vh - 60px);
+      top: 60px; } }
+  .side-menu.show {
+    left: 0; }
   .side-menu-title {
     font-size: 1.4em;
     color: #fff;
@@ -14808,7 +14815,8 @@ footer {
     @media (max-width: 1200px) {
       .side-menu-title {
         font-size: 1em;
-        height: 40px; } }
+        height: 40px;
+        border-radius: 0; } }
   .side-menu .accordion-item {
     border-color: #fff; }
     .side-menu .accordion-item:last-child {
