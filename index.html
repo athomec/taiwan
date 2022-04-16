@@ -74,10 +74,22 @@
 							</a>
 						</li>
 						<li class="me-2 me-lg-0">
-							<a href="#" target="_blank" title="會員專區" class="top-menu-btn" data-shape="pill">
-								<img src="./assets/images/ic-user.svg" alt="會員專區" class="me-lg-1">
-								<p class="d-none d-lg-block">會員專區</p>
-							</a>
+							<div class="member">
+								<a href="#" target="_blank" title="會員專區" class="top-menu-btn" data-shape="pill"
+									data-bs-toggle="collapse" data-bs-target="#member">
+									<img src="./assets/images/ic-user.svg" alt="會員專區" class="me-lg-1">
+									<p class="d-none d-lg-block">會員專區</p>
+								</a>
+								<ul class="collapse member-menu" id="member">
+									<li><a class="member-item" href="#" title="會員概要">會員概要</a></li>
+									<li><a class="member-item" href="#" title="基本設定">基本設定</a></li>
+									<li><a class="member-item" href="#" title="報名活動專區">報名活動專區</a></li>
+									<li><a class="member-item" href="#" title="搜尋工作">搜尋工作</a></li>
+									<li><a class="member-item" href="#" title="工作媒合結果">工作媒合結果</a></li>
+									<li><a class="member-item border-0" href="#" title="登出"><img
+												src="./assets/images/ic-logout.svg" alt=""> 登出</a></li>
+								</ul>
+							</div>
 						</li>
 					</ul>
 					<button class="navbar-toggler p-0" type="button" data-bs-toggle="collapse"
@@ -108,13 +120,12 @@
 							</ul>
 						</li>
 						<li class="nav-item dropdown me-lg-5">
-							<a class="nav-link dropdown-toggle" href="why.html" id="dropdown01" data-bs-toggle="dropdown"
-								title="Why Taiwan">Why Taiwan</a>
+							<a class="nav-link dropdown-toggle" href="why.html" id="dropdown01"
+								data-bs-toggle="dropdown" title="Why Taiwan">Why Taiwan</a>
 							<ul class="dropdown-menu" aria-labelledby="dropdown01">
-								<li><a class="dropdown-item" href="why.html" title="關於臺灣">關於臺灣</a></li>
-								<li><a class="dropdown-item" href="why.html" title="優勢產業">優勢產業</a></li>
-								<li><a class="dropdown-item" href="why.html" title="在臺灣生活">在臺灣生活</a></li>
-								<li><a class="dropdown-item" href="why.html" title="在臺經驗分享">在臺經驗分享</a></li>
+								<li><a class="dropdown-item js-anchor-link" href="why.html#about1" title="關於臺灣">關於臺灣</a></li>
+								<li><a class="dropdown-item js-anchor-link" href="why.html#life1" title="在臺灣生活">在臺灣生活</a></li>
+								<li><a class="dropdown-item js-anchor-link" href="why.html#industry1" title="優勢產業">優勢產業</a></li>
 							</ul>
 						</li>
 						<li class="nav-item me-lg-5">
@@ -634,10 +645,9 @@
 					<div class="col-sm-6 col-md-4 col-lg-3 col-xxl-2 footer-column mb-3 mb-3">
 						<div class="footer-title">Why Taiwan</div>
 						<ul>
-							<li><a href="#" title="關於臺灣" class="footer-link">關於臺灣</a></li>
-							<li><a href="#" title="優勢產業" class="footer-link">優勢產業</a></li>
-							<li><a href="#" title="在臺灣生活" class="footer-link">在臺灣生活</a></li>
-							<li><a href="#" title="在臺經驗分享" class="footer-link">在臺經驗分享</a></li>
+							<li><a href="why.html#about1" title="關於臺灣" class="footer-link js-anchor-link">關於臺灣</a></li>
+							<li><a href="why.html#life1" title="在臺灣生活" class="footer-link js-anchor-link">在臺灣生活</a></li>
+							<li><a href="why.html#industry1" title="優勢產業" class="footer-link js-anchor-link">優勢產業</a></li>
 						</ul>
 					</div>
 					<div class="col-sm-6 col-md-4 col-lg-3 col-xxl-2 footer-column mb-3 mb-3">
@@ -659,9 +669,12 @@
 					<div class="col-sm-6 col-md-4 col-lg-3 col-xxl-2 footer-column mb-3 mb-3">
 						<div class="footer-title">會員專區</div>
 						<ul>
-							<li><a href="#" title="加入會員" class="footer-link">加入會員</a></li>
-							<li><a href="#" title="會員登入" class="footer-link">會員登入</a></li>
-							<li><a href="#" title="會員概要" class="footer-link">會員概要</a></li>
+							<li><a href="#" class="footer-link" title="會員概要">會員概要</a></li>
+							<li><a href="#" class="footer-link" title="基本設定">基本設定</a></li>
+							<li><a href="#" class="footer-link" title="報名活動專區">報名活動專區</a></li>
+							<li><a href="#" class="footer-link" title="搜尋工作">搜尋工作</a></li>
+							<li><a href="#" class="footer-link" title="工作媒合結果">工作媒合結果</a></li>
+							<li><a href="#" class="footer-link" title="登出">登出</a></li>
 						</ul>
 					</div>
 				</div>
@@ -673,7 +686,7 @@
 				</div>
 				<p class="white font-light font-xsm font-xs-md">
 					Copyright © 2022 Ministry of Economic Affairs, R.O.C. 經濟部版權所有 <br>
-建議瀏覽器：Chrome，Firefox，IE10.0 以上版本 ( 螢幕最佳顯示效果為 1280*960 )
+					建議瀏覽器：Chrome，Firefox，IE10.0 以上版本 ( 螢幕最佳顯示效果為 1280*960 )
 				</p>
 			</div>
 			<a href="#" class="gotop font-xs font-xxs-md" title="回到最上方">TOP</a>
@@ -685,8 +698,11 @@
 		<script src="assets/js/script.js"></script>
 		<script src="assets/js/aos.js"></script>
 		<script>
-			AOS.init();
-		  </script>
+			var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+			var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+				return new bootstrap.Tooltip(tooltipTriggerEl)
+			})
+		</script>
 		<!--自訂JS-->
 </body>
 

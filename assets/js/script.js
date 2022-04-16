@@ -2,13 +2,10 @@ $(function () {//JS開頭
 
 	var WINDOW = $(window).width();//視窗寬度
 	var WINDOWH = $(window).height();//視窗高度
+	var scrollBottom = $(document).height() - $(window).height() - $(window).scrollTop();
 //---------------------捲動設定---------------------
-$(".gotop").click(function () {
-	$("html,body").animate({ scrollTop: 0 }, 300);
-	return false;
-})
 $(window).scroll(function () {
-	if ($(this).scrollTop() > 100) { //若目前的位置距離網頁頂端>100px
+	if ($(this).scrollTop() > 50) { //若目前的位置距離網頁頂端>80px
 		$(".gotop").fadeIn("fast");
 		$("header").addClass("up");
 	} else {
@@ -16,12 +13,27 @@ $(window).scroll(function () {
 		$("header").removeClass("up");
 	}
 
-	var index = 0;//各單元區塊順序
-	var st = $(window).scrollTop();//現在捲軸位置
-	var wh = $(window).height();//視窗高度
+	if ($(this).scrollTop()>80) { 
+		$(".js-side-menu").addClass("fixed");
+	} else {
+		$(".js-side-menu").removeClass("fixed");
+	}
 });
 
-
+//內頁側邊選單設定
+$(".js-page-navbar-toggler").click(function() {
+	$(".js-side-menu").toggleClass("open");
+})
+$(".js-anchor-link").click(function() {
+	let target=$(this).attr('href');
+	$("html,body").animate(
+		{
+		  scrollTop: $(target).offset().top - 120 //直接到相對位置
+		},
+		200
+	  );
+	  return false;
+})
 //---------------------頁籤設定------------------------
 $('.js-check-menu').find(".js-check-button").click(function () {
 	var selectedClassName = $(this).attr('data-target');
@@ -132,16 +144,10 @@ $('.dropdown').hover(function() {
 
 	RESIZE();
 
-	function RESIZE() {
+/*	function RESIZE() {
 		WINDOWH = $(window).height();
 		WINDOW = $(window).width();
-
-		if (WINDOW < 1200) {
-			$("#locate-all").removeClass("show");
-		} else {
-			$("#locate-all").addClass("show");
-		}
-	}
+	}*/
 
 
 })//JS尾端	

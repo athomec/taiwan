@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26" height="24" viewBox="0 0 26 24">
+  <g id="ic-print" transform="translate(-1605 -565)">
+    <g id="printer" transform="translate(1609.2 568.737)">
+      <path id="Path_1405" data-name="Path 1405" d="M99.36,2.788H88.348A.348.348,0,0,1,88,2.439V1.533A1.533,1.533,0,0,1,89.533,0h8.642a1.533,1.533,0,0,1,1.533,1.533v.906A.348.348,0,0,1,99.36,2.788Z" transform="translate(-84.934)" fill="#0cb5b5"/>
+      <path id="Path_1406" data-name="Path 1406" d="M15.959,112H1.882A1.884,1.884,0,0,0,0,113.882v6.551a1.884,1.884,0,0,0,1.882,1.882H3.066v-2.788a2.512,2.512,0,0,1,2.509-2.509h6.69a2.512,2.512,0,0,1,2.509,2.509v2.788h1.185a1.884,1.884,0,0,0,1.882-1.882v-6.551A1.884,1.884,0,0,0,15.959,112ZM3.346,116.181a.836.836,0,1,1,0-1.673h0a.836.836,0,1,1,0,1.673Z" transform="translate(0 -108.097)" fill="#0cb5b5"/>
+      <path id="Path_1407" data-name="Path 1407" d="M143.527,304h-6.69a.836.836,0,0,0-.836.836v3.9a.836.836,0,0,0,.836.836h6.69a.836.836,0,0,0,.836-.836v-3.9A.836.836,0,0,0,143.527,304Z" transform="translate(-131.261 -293.407)" fill="#0cb5b5"/>
+    </g>
+    <rect id="Rectangle_344" data-name="Rectangle 344" width="26" height="24" transform="translate(1605 565)" fill="none"/>
+  </g>
+</svg>
