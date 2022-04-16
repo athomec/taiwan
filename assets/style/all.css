@@ -10899,7 +10899,8 @@ input::placeholder {
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
-          justify-content: center; }
+          justify-content: center;
+  z-index: 1; }
   @media (max-width: 576px) {
     .main-title {
       -webkit-box-orient: vertical;
@@ -10924,6 +10925,9 @@ input::placeholder {
     @media (max-width: 768px) {
       .main-title-text {
         font-size: 1.8em; } }
+    @media (max-width: 576px) {
+      .main-title-text {
+        font-size: 1.4em; } }
   .main-title-more {
     display: -webkit-box !important;
     display: -ms-flexbox !important;
@@ -10953,12 +10957,26 @@ input::placeholder {
   font-weight: 600;
   display: inline-block;
   padding-bottom: 6px;
-  border-bottom: 4px solid #003B84; }
+  border-bottom: 4px solid #003B84;
+  /*ipnone6*/ }
+  @media (max-width: 768px) {
+    .sub-title {
+      font-size: 1.4em; } }
+  @media (max-width: 375px) {
+    .sub-title {
+      font-size: 1.2em; } }
 
 .sub-sub-title {
   font-size: 1.2em;
   color: #159494;
-  font-weight: 500; }
+  font-weight: 500;
+  /*ipnone6*/ }
+  @media (max-width: 768px) {
+    .sub-sub-title {
+      font-size: 1.125em; } }
+  @media (max-width: 375px) {
+    .sub-sub-title {
+      font-size: 1em; } }
 
 .icon-title {
   display: -webkit-box;
@@ -12693,7 +12711,7 @@ input::placeholder {
   position: absolute;
   right: 0;
   top: 5px;
-  z-index: 5; }
+  background: #fff; }
   @media (max-width: 576px) {
     .side-list {
       position: initial;
@@ -14616,7 +14634,7 @@ footer {
     /*ipnone6*/ }
     @media (max-width: 1430px) {
       .page-top[data-content="why"]:after {
-        background: url("../images/page-bg1.jpg") no-repeat left 60px;
+        background: url("../images/page-bg1.jpg") no-repeat left 80px;
         background-size: 1500px; } }
     @media (max-width: 1200px) {
       .page-top[data-content="why"]:after {
@@ -14727,12 +14745,16 @@ footer {
   color: #fff;
   font-size: 0.95em;
   padding: 16px 8px;
-  border-radius: 0 8px 8px 0; }
+  border-radius: 0 8px 8px 0;
+  /*ipnone6*/ }
   @media (max-width: 1200px) {
     .page-navbar-toggler {
       position: absolute;
       right: 0;
       top: 40px; } }
+  @media (max-width: 375px) {
+    .page-navbar-toggler {
+      top: 30px; } }
   .page-navbar-toggler img {
     width: 18px;
     margin-bottom: 5px; }
@@ -14745,7 +14767,8 @@ footer {
   -webkit-transition: all 0.2s ease;
   -o-transition: all 0.2s ease;
   transition: all 0.2s ease;
-  /*ipnone6*/ }
+  /*ipnone6*/
+  /*ipnone5*/ }
   @media (max-width: 1200px) {
     .side-menu {
       position: absolute;
@@ -14755,6 +14778,9 @@ footer {
   @media (max-width: 375px) {
     .side-menu {
       top: -80px; } }
+  @media (max-width: 320px) {
+    .side-menu {
+      top: -110px; } }
   .side-menu-title {
     font-size: 1.4em;
     color: #fff;
@@ -14835,10 +14861,19 @@ footer {
 
 /*-----------------內容開始---------------------*/
 .page-section-wrapper {
-  background: url("../images/words-why.svg") no-repeat right 80px; }
+  background: url("../images/words-why.svg") no-repeat right 80px;
+  /*ipnone5*/ }
   @media (max-width: 1200px) {
     .page-section-wrapper {
       margin-left: 45px; } }
+  @media (max-width: 576px) {
+    .page-section-wrapper {
+      background: url("../images/words-why.svg") no-repeat right 120px;
+      background-size: 150px; } }
+  @media (max-width: 320px) {
+    .page-section-wrapper {
+      background: url("../images/words-why.svg") no-repeat right 120px;
+      background-size: 130px; } }
   .page-section-wrapper hr {
     background: url("../images/ic-dots.svg") no-repeat center;
     height: 96px;
