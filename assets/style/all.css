@@ -14413,6 +14413,50 @@ footer {
   .login-content-item.show {
     display: block; }
 
+.member-info {
+  background: #F9F9F9;
+  border-radius: 8px; }
+  .member-info-link {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    color: #666;
+    height: 68px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    .member-info-link p {
+      color: #FF9F03;
+      font-size: 1.8em;
+      text-decoration: underline; }
+    .member-info-link:hover p {
+      text-decoration: none; }
+
+.member-btn-link {
+  opacity: 0.8 !important;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 15px 0;
+  border-radius: 8px !important; }
+
 /* ------------- news開始 -------------*/
 .list-shadow {
   display: block !important;

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="76" height="53" viewBox="0 0 76 53">
+  <g id="ic-job" transform="translate(-48 -18)">
+    <g id="job-search" transform="translate(64 24)">
+      <path id="Path_1435" data-name="Path 1435" d="M210.019,261h2.573v2.573h-2.573Z" transform="translate(-192.006 -240.414)" fill="#fff"/>
+      <path id="Path_1436" data-name="Path 1436" d="M2.607,38.984H24.475A11.02,11.02,0,0,1,38.6,29.152V27.413a1.287,1.287,0,0,0-1.287-1.287H25.735v-3.86a1.287,1.287,0,0,0-1.287-1.287h-10.3a1.287,1.287,0,0,0-1.287,1.287v3.86H1.287A1.287,1.287,0,0,0,0,27.413v9.353a2.645,2.645,0,0,0,2.607,2.218ZM15.437,23.553h7.724v2.573H15.437Z" transform="translate(0 -20.98)" fill="#fff"/>
+      <path id="Path_1437" data-name="Path 1437" d="M29.893,261.1A11.01,11.01,0,0,1,24.6,253.42H23.159v3.869a1.287,1.287,0,0,1-1.287,1.287H16.726a1.287,1.287,0,0,1-1.287-1.287V253.42H2.607a5.18,5.18,0,0,1-2.607-.7V269.6a1.287,1.287,0,0,0,1.287,1.287H29.942c-.089-.677-.031-.256-.049-9.788Z" transform="translate(0 -232.843)" fill="#fff"/>
+      <path id="Path_1438" data-name="Path 1438" d="M329.489,143.506a8.448,8.448,0,1,0-8.976,13.869v2.96h6v-2.96a8.456,8.456,0,0,0,2.972-13.869Zm-5.974,11.846h0a5.872,5.872,0,1,1,5.872-5.872A5.859,5.859,0,0,1,323.515,155.352Z" transform="translate(-288.047 -130.738)" fill="#fff"/>
+      <path id="Path_1439" data-name="Path 1439" d="M378.533,401.205a3,3,0,0,0,6,0v-5.142h-6Z" transform="translate(-346.067 -363.893)" fill="#fff"/>
+    </g>
+    <rect id="Rectangle_388" data-name="Rectangle 388" width="76" height="53" transform="translate(48 18)" fill="none"/>
+  </g>
+</svg>

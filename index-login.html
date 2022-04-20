@@ -191,101 +191,46 @@
 			</div>
 			<div class="col-md-6 col-xl-4">
 				<div class="login mx-auto ms-md-auto">
-					<h3 class="font-xl primary-color mb-4 text-center text-md-start">會員登入</h3>
-					<div class="login-check js-check-menu mb-3 font-xsm">
-						<div class="form-check form-check-inline active me-3">
-							<input class="form-check-input" type="radio" name="inlineRadioOptions" id="personRadio"
-								value="person" title="人才登入" checked>
-							<label class="form-check-label js-check-button active" for="personRadio" data-target="#person">人才登入</label>
-						</div>
-						<div class="form-check form-check-inline me-0">
-							<input class="form-check-input" type="radio" name="inlineRadioOptions" id="companyRadio"
-								value="company" title="企業登入">
-							<label class="form-check-label js-check-button" for="companyRadio" data-target="#company">企業登入</label>
-						</div>
-					</div>
-					<div class="login-content font-xsm">
-						<div id="person" class="login-content-item show js-content-item">
-							<div class="mb-3">
-								<label for="person-account" class="form-label">帳號</label>
-								<input type="text" class="form-control login-input" id="person-account"
-									placeholder="請輸入帳號" title="請輸入帳號">
-							</div>
-							<div class="mb-3">
-								<label for="person-password" class="form-label">密碼</label>
-								<input type="text" class="form-control login-input" id="person-password"
-									placeholder="請輸入密碼" title="請輸入密碼">
-							</div>
-							<div class="row mb-3 align-items-end g-3">
-								<div class="col-sm-5">
-									<label for="person-verification" class="form-label">驗證碼</label>
-									<input type="text" class="form-control login-input" id="person-verification"
-										placeholder="請輸入驗證碼" title="請輸入驗證碼">
-								</div>
-								<div class="col-sm-7 d-flex align-items-center">
-									<img src="./assets/images/demo-code.png" alt="驗證碼圖片" class="me-2">
-									<a href="#" class="img-link me-1" title="重新產生驗證碼"><img
-											src="./assets/images/ic-refresh.svg" alt="重新產生驗證碼"></a>
-									<a href="#" class="img-link" title="語音服務"><img src="./assets/images/ic-voice.svg"
-											alt="語音服務"></a>
-								</div>
-							</div>
-							<div class="d-grid mb-3">
-								<button class="btn btn-dark-alert-color py-2" onclick="location.href='index-login.html'" title="登入">登入</button>
-							</div>
-							<div class="d-flex">
-								<a href="#forget" class="d-flex link-black-70 font-bold me-4" data-bs-toggle="modal"
-									title="忘記密碼">
-									<img src="./assets/images/ic-forget.svg" alt="忘記密碼">
-									<p>忘記密碼</p>
-								</a>
-								<a href="signup.html" class="d-flex link-black-70 font-bold" title="註冊會員">
-									<img src="./assets/images/ic-signup.svg" alt="註冊會員">
-									<p>註冊會員</p>
-								</a>
-							</div>
-						</div>
-						<div id="company"  class="login-content-item js-content-item" data-bs-parent=".login-content">
-							<div class="mb-3">
-								<label for="company-account" class="form-label">帳號</label>
-								<input type="text" class="form-control login-input" id="company-account"
-									placeholder="請輸入帳號" title="請輸入帳號">
-							</div>
-							<div class="mb-3">
-								<label for="company-password" class="form-label">密碼</label>
-								<input type="text" class="form-control login-input" id="company-password"
-									placeholder="請輸入密碼" title="請輸入密碼">
-							</div>
-							<div class="row mb-3 align-items-end g-3">
-								<div class="col-sm-5">
-									<label for="company-verification" class="form-label">驗證碼</label>
-									<input type="text" class="form-control login-input" id="company-verification"
-										placeholder="請輸入驗證碼" title="請輸入驗證碼">
-								</div>
-								<div class="col-sm-7 d-flex align-items-center">
-									<img src="./assets/images/demo-code.png" alt="驗證碼圖片" class="me-2">
-									<a href="#" class="img-link me-1" title="重新產生驗證碼"><img
-											src="./assets/images/ic-refresh.svg" alt="重新產生驗證碼"></a>
-									<a href="#" class="img-link" title="語音服務"><img src="./assets/images/ic-voice.svg"
-											alt="語音服務"></a>
-								</div>
-							</div>
-							<div class="d-grid mb-3">
-								<button class="btn btn-dark-alert-color py-2" onclick="location.href='index-login.html'" title="登入">登入</button>
-							</div>
-							<div class="d-flex">
-								<a href="#forget" class="d-flex link-black-70 font-bold me-4" data-bs-toggle="modal"
-									title="忘記密碼">
-									<img src="./assets/images/ic-forget.svg" alt="忘記密碼">
-									<p>忘記密碼</p>
-								</a>
-								<a href="signup.html" class="d-flex link-black-70 font-bold" title="註冊會員">
-									<img src="./assets/images/ic-signup.svg" alt="註冊會員">
-									<p>註冊會員</p>
-								</a>
-							</div>
-						</div>
-					</div>
+					<h3 class="font-xl primary-color mb-4 text-center text-md-start">會員資訊</h3>
+					<p class="black-40 font-smd text-center mb-3">王小明，您好！</p>
+                    <ul class="row member-info py-3 gx-0 mb-3">
+                        <li class="col-6 border-end bd-gray">
+                            <a href="#" title="配對工作" class="member-info-link">
+                                <p>3</p> 配對工作
+                            </a>
+                        </li>
+                        <li class="col-6">
+                            <a href="#" title="廠商留言" class="member-info-link">
+                                <p>5</p> 廠商留言
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="row member-btn gx-3">
+                        <li class="col-6 mb-3">
+                            <a href="#" class="member-btn-link btn-dark-primary-light-color" title="基本設定">
+                            <img src="./assets/images/ic-id.svg" alt="基本設定icon">
+                            基本設定
+                        </a>
+                    </li>
+                    <li class="col-6 mb-3">
+                        <a href="#" class="member-btn-link btn-dark-secondary-light-color" title="報名活動專區">
+                        <img src="./assets/images/ic-signup-event.svg" alt="報名活動專區icon">
+                        報名活動專區
+                    </a>
+                    </li>
+                        <li class="col-6">
+                            <a href="#" class="member-btn-link btn-dark-secondary-light-color" title="搜尋工作">
+                                <img src="./assets/images/ic-job.svg" alt="搜尋工作icon">
+                                搜尋工作
+                            </a>
+                        </li>
+                        <li class="col-6">
+                            <a href="#" class="member-btn-link btn-dark-primary-light-color" title="工作媒合結果">
+                                <img src="./assets/images/ic-job.svg" alt="工作媒合結果icon">
+                                工作媒合結果
+                            </a>
+                        </li>
+                    </ul>
 				</div>
 			</div>
 		</div>
