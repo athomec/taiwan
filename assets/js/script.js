@@ -39,7 +39,14 @@ $(function () {//JS開頭
 		$(this).siblings('.js-toggle-button').removeClass('active');
 
 	});
-
+	$('.js-toggle-button').click(function () {
+		$("html,body").animate(
+			{
+				scrollTop: $('.js-toggle-menu').offset().top - 160 //直接到相對位置
+			},
+			200
+		);
+	})
 	$('.dropdown').hover(function () {
 		$(this).find(".dropdown-menu").addClass('show');
 	}, function () {
